@@ -1,0 +1,100 @@
+<!--导航条-->  
+<view class="navbar">  
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+  
+<!--首页-->  
+<view hidden="{{currentTab!==0}}">  
+<view class="anglesList"> 
+  <navigator url="../index/index" class="anglesNavigator"> 
+
+    <view class="imgBox"> 
+      <image class="tubiao" src="/imgs/4.jpg" mode="aspectFill"></image> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">4色环电阻</text>
+    </view> 
+    </navigator>
+    
+</view>
+<view class="anglesList"> 
+  <navigator url="../wuse/wuse" class="anglesNavigator"> 
+
+    <view class="imgBox"> 
+      <image class="tubiao" src="/imgs/5.jpg" mode="aspectFill"></image> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">5色环电阻</text>
+    </view> 
+    </navigator>
+    
+</view>
+<view class="anglesList"> 
+  <navigator url="../diangan/diangan" class="anglesNavigator"> 
+
+    <view class="imgBox"> 
+      <image class="tubiao" src="/imgs/diangan.jpg" mode="aspectFill"></image> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">电感色环计算</text>
+    </view> 
+    </navigator>
+    
+</view>
+<view class="anglesList"> 
+  <navigator url="../oumu/oumu" class="anglesNavigator"> 
+
+    <view class="imgBox"> 
+      <image class="tubiao" src="/imgs/oumu.jpg" mode="aspectFill"></image> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">欧姆定律计算</text>
+    </view> 
+    </navigator>
+    
+</view>
+
+<view class="anglesList" bindtap='aiyoubind'> 
+    <view class="imgBox"> 
+      <image class="tubiao" src="/imgs/bofang.png" mode="aspectFill"></image> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">哎呦小视频</text>
+    </view> 
+
+    
+</view>
+</view>  
+  
+<!--搜索-->  
+<view hidden="{{currentTab!==1}}">  
+ <view class="search-container">
+  <input type="text" bindinput="searchInputEvent"confirm-type="search" placeholder="输入电路搜索"></input>
+  <icon bindtap="searchClickEvent" type="search" size="20" />
+</view>
+<scroll-view class="page-body" scroll-y="true">
+  <view class="logo" wx:if="{{!loadingMore&&totalRecord == 0&&!isInit}}">
+    <icon type="cancel" color="#B0AAAA" size="50" />
+    <view>
+      <text>没有找到相关电路图</text>
+    </view>
+  </view>
+
+  <navigator url="../tuxiangqing/tuxiangqing?id={{item.id}}" wx:for="{{tucount}}">
+    <view class="items">
+      <image class="poster" src="{{item.dianlu}}"></image>
+       <view class="meta">
+       <text class="title">{{item.title}}</text>
+       <text class="texttype">{{item.type}}</text>
+      </view>
+    </view>
+    
+  </navigator>
+   <view class="refresh-footer" wx:if="{{loadingMore}}">
+    <icon type="waiting" size="30" color="{{footerIconColor}}" />
+  </view>
+  </scroll-view>
+
+</view>  
+
+

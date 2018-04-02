@@ -1,0 +1,155 @@
+.anglesList{ 
+  display:flex;
+  align-items:center;
+  padding:25rpx 25rpx 25rpx 0;
+  margin-left:25rpx;
+  border-bottom:1px solid #f1f1f1; 
+} 
+
+.anglesList .anglesNavigator{ 
+  display:flex;
+  align-items:center;
+  flex-grow:1;
+} 
+
+.anglesList .imgBox{ 
+  flex:0 0 110rpx;
+  width:110rpx; 
+  height:110rpx; 
+  border-radius:50%; 
+  padding:5rpx; 
+  margin-right:20rpx; 
+  background:linear-gradient(#fff,#6a6969); 
+} 
+
+.anglesList .imgBox image{ 
+  width:110rpx; 
+  height:110rpx; 
+  border-radius:50%; 
+} 
+
+.anglesList .textBox{ 
+  flex-grow:1;
+} 
+
+.anglesList text{ 
+  display:block; 
+  max-width:12em; 
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+}
+.viewfankui{
+justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 760rpx;
+}
+.viewfankui .fankui{
+  font-size: 30rpx;
+  color: blue;
+  
+}
+page{  
+  display: flex;  
+  flex-direction: column;  
+  height: 100%;  
+}  
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #5d6d9d;  
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto; 
+  display: flex;
+  justify-content: center; 
+  text-align: center;  
+  line-height: 80rpx;  
+}  
+.navbar .item.active{  
+  color: #fff;  
+}  
+.navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 10rpx;  
+  background: #fff;  
+}  
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d6d9d;
+  color: #FFF;
+  height: 80rpx;
+  padding: 10rpx 20rpx;
+  z-index: 100;
+}
+.search-container input {
+  background: #FFF;
+  color: #AAA;
+  padding: 5px 10rpx;
+  height: 40rpx;
+  width: 100%;
+  border-radius: 8rpx;
+}
+.search-container icon {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  margin-top: -20rpx;
+  right: 40rpx;
+}
+.logo {
+  text-align:center;
+  padding-top:50rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #AAA
+}
+.logo image {
+  width: 250rpx;
+  height: 250rpx;
+}
+.page-body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.items{
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.items .poster{
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 20rpx;
+}
+.items .meta{
+  flex: 1;
+  margin-top: 30rpx;
+}
+.items .meta .title{
+
+  margin-left: 30rpx;
+}
+
+ .refresh-footer {
+  text-align: center;
+  padding: 10rpx 0;
+}
+.texttype{
+  display: flex;
+  margin-left: 30rpx;
+   margin-top: 25rpx;
+   font-size: 35rpx;
+   color: #ccc;
+}

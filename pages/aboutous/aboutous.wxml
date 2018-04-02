@@ -1,0 +1,28 @@
+<!--pages/aboutous/aboutous.wxml-->
+<view class="aboutous_wrap">
+    <view class="a_contant">
+        <image class="img_01" src="image/yac.png"></image>
+        <text>桂林航天工业学院大学生创新创业中心雅C团队提供</text>
+        <view class="line"></view>
+        <view class="a_contact">
+            <view>
+                官方网站: <text class="url">https://www.glyac.com</text>
+            </view>
+            <view>
+                微信号: <text class="url">18276061387</text>
+            </view>
+            <view>
+                QQ号: <text class="url">1960665027</text>
+            </view>
+            <view>
+                热线电话: <text>18276061387</text><view data-num="400-826-0101" bindtap="contantous"><image  class="img_02" src="image/_04.png"></image></view>
+            </view>
+            <view>
+                应用版本: <text>1.0.0</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="shangbiao">
+   2016-2017 雅C团队版权所有
+</view>

@@ -1,0 +1,27 @@
+<view class="sectionzhengti">
+
+  <view class="pickerstyle">
+
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view style="color:#4d4cd0" class="picker">
+        {{array[index]}}
+        <image class="pickerimg" src="/imgs/picker.jpg"></image> 
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <form bindsubmit="formSubmit">
+    <view class="row">
+      <input class="inputone" name="keyoen" placeholder="输入{{yizhione}}" auto-focus/>
+      </view>
+      <view class="row">
+      <input class="inputtwo" name="keytwo" placeholder="输入{{yizhitwo}}" auto-focus/>
+      </view>
+     
+      <button type="primary" form-type="submit">计算</button>
+    </form>
+  </view>
+   <text style=" margin-top: 30rpx;">结果为：</text>
+  <view class="jieguo">{{wenzioen}}{{jieguoone}}{{fuhaoone}}</view>
+  <view class="jieguo">{{wenzitwo}}{{jieguotwo}}{{fuhaotwo}}</view>
+</view>

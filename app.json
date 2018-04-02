@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/wuse/wuse",
+    "pages/opinion/opinion",
+    "pages/mycenter/mycenter",
+    "pages/aboutous/aboutous",
+    "pages/diangan/diangan",
+    "pages/oumu/oumu",
+    "pages/tuxiangqing/tuxiangqing"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#5d6d9d",
+    "navigationBarTitleText": "电阻计算",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "borderStyle": "white",
+    "selectedColor": "#ef8d2c",
+    "backgroundColor": "#f6f6f6",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "工具",
+        "iconPath": "imgs/001_01.png",
+        "selectedIconPath": "imgs/001_02.png"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "iconPath": "imgs/0104_01.png",
+        "selectedIconPath": "imgs/0104_02.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

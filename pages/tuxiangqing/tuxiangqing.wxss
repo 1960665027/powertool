@@ -1,0 +1,10 @@
+.page-body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.item{
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 2rpx solid #eee;
+}

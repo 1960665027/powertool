@@ -1,0 +1,21 @@
+.zhanshi{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.zhengti{
+  display: flex;
+  
+}
+.radio{
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.diyititle{
+  display: flex;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

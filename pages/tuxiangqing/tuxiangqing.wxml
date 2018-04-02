@@ -1,0 +1,5 @@
+<scroll-view class="page-body" scroll-y="true">
+   <view class="item" wx:for="{{searchtu}}">
+     <image src="{{item.dianlu}}"  bindtap="tubind" data-src="{{item.dianlu}}"></image>
+   </view>
+</scroll-view>

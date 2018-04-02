@@ -1,0 +1,38 @@
+
+<view class="zhanshi">{{jieguo}}uf ±{{wucha}}%</view>
+<canvas canvas-id="myCanvas" style="height:70rpx;" />
+<view class="zhengti" >
+<view class="diyihua">
+<text class="diyititle">第一环</text>
+<radio-group class="radio-group" bindchange="radioChange1">
+  <label style="display:flex" class="radio" wx:for="{{items1}}">
+    <radio color="{{item.color}}" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+</view>
+<view class="dierhua" >
+<text class="diyititle">第二环</text>
+<radio-group class="radio-group" bindchange="radioChange2">
+  <label class="radio" wx:for="{{items2}}">
+    <radio color="{{item.color}}" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+</view>
+<view class="disanhua" >
+<text class="diyititle">第三环</text>
+<radio-group class="radio-group" bindchange="radioChange3">
+  <label class="radio" wx:for="{{items3}}">
+    <radio color="{{item.color}}" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+</view>
+<view class="disihua" >
+<text class="diyititle">第四环</text>
+<radio-group class="radio-group" bindchange="radioChange4">
+  <label class="radio" wx:for="{{items4}}">
+    <radio color="{{item.color}}" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+</view>
+
+</view>
