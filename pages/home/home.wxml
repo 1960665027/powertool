@@ -56,10 +56,10 @@
 
 <view class="anglesList" bindtap='aiyoubind'> 
     <view class="imgBox"> 
-      <image class="tubiao" src="/imgs/bofang.png" mode="aspectFill"></image> 
+      <image class="tubiao" src="/imgs/thlylogo.jpg" mode="aspectFill"></image> 
     </view> 
     <view class="textBox"> 
-      <text class="name">哎呦小视频</text>
+      <text class="name">泰吉驿途</text>
     </view> 
 
     

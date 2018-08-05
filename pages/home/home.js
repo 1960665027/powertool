@@ -83,7 +83,7 @@ Page({
   aiyoubind:function()
   {
     wx.navigateToMiniProgram({
-      appId: 'wxf2a493aae1d1ab8b',
+      appId: 'wx052e4cb7e9fc8e61',
       extraData: {
         foo: 'bar'
       },
