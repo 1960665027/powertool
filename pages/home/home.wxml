@@ -53,17 +53,6 @@
     </navigator>
     
 </view>
-
-<view class="anglesList" bindtap='aiyoubind'> 
-    <view class="imgBox"> 
-      <image class="tubiao" src="/imgs/thlylogo.jpg" mode="aspectFill"></image> 
-    </view> 
-    <view class="textBox"> 
-      <text class="name">泰吉驿途</text>
-    </view> 
-
-    
-</view>
 </view>  
   
 <!--搜索-->  
@@ -96,5 +85,5 @@
   </scroll-view>
 
 </view>  
-
+<ad class="ad-item" unit-id="adunit-ac9bae86905ebab9"></ad>
 

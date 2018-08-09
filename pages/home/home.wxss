@@ -153,3 +153,7 @@ page{
    font-size: 35rpx;
    color: #ccc;
 }
+.ad-item{
+  position: fixed;
+  bottom: 0px;
+}

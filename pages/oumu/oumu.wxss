@@ -42,3 +42,7 @@
   height: 30rpx;
   margin-top: 10rpx;
 }
+.ad-item{
+  position: fixed;
+  bottom: 0px;
+}
